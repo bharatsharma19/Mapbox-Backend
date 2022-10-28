@@ -20,6 +20,6 @@ mongoose
 app.use("/api/users", userRoute);
 app.use("/api/pins", pinRoute);
 
-app.listen(8800, () => {
+app.listen(3001, () => {
   console.log("Backend server is running!");
 });
